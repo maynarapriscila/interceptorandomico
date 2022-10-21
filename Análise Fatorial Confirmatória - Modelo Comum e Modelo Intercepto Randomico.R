@@ -19,7 +19,7 @@ uniconex.fit <- cfa(uniconex,
                     data = banco,
                     estimator = 'WLSMV')
 
-summary(uniconex.fit, standardized = TRUE, fit.measures = TRUE, modindices = FALSE)
+summary(uniconex.fit, standardized = TRUE, fit.measures = TRUE)
 
 
 #### modelo intercepto randomico ####
@@ -34,4 +34,4 @@ aquiconex.fit <- cfa(aquiconex,
                      data = banco,
                      estimator = 'WLSMV')
 
-summary(aquiconex.fit, standardized = TRUE, fit.measures = TRUE, modindices = FALSE)
+summary(aquiconex.fit, standardized = TRUE, fit.measures = TRUE)
